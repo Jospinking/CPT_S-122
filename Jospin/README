@@ -1,0 +1,5 @@
+compile using:
+
+g++ main.cpp -std=c++11
+
+run using ./a.out

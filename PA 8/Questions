@@ -1,0 +1,13 @@
+Q. We understand that a BST is most efficient when it is balanced. If the data.csv file was not already organized to provide a fairly balanced tree, how would you balance the tree as you insert?
+
+Ans:
+
+We would use AVL or Red black trees which make sure the tree is balanced on every insert to search would be faster in that case
+
+Q. Do you think there are other data structures that would be better suited for this type of problem? Why?
+
+A. We can use hash map also for such type of storage, we can create two hash map for sold and purchased. The key for each hashmap will be the data, as in type in csv and value will be units. there can be collision but we can use techniques to avoid collision. Here the search would be faster, for keeping track of min and max we can keep variables which keep on changing as we insert
+
+Q. What would happen to our program if we found duplicate products or # of units sold/purchased in the file? Would we need a data structure to efficiently combine the products and # of units? Hash table? 
+
+A. In case of tree it can handle duplicate by itself. The order of insert will be the order in inOrder for duplicate units. For Hash table for duplicates there will be collision and we can prevent it using various collision avoidance techniques

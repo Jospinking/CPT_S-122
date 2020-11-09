@@ -1,0 +1,18 @@
+frontAbstracion
+encapsulation
+what is information hidding? it is a private data member. 
+accessclassifier? it is a private and public functions
+code
+Bst..easiest way to do it is to use recursion
+queues
+stack 
+insert in order for a list
+
+
+check a phone
+
+template<classT>
+bool Queue<T>
+
+to check the size mpfront[msize-1]
+
